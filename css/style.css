@@ -6,19 +6,26 @@
 
 .menu-ul {
   list-style-type: none;
-  background: #ccc;
+  background: #F3EEEA;
   display: flex;
   list-style-position: outside;
+  height: 80px;
+}
+
+.ul-two {
+    flex-direction: row-reverse;
 }
 
 .menu-item {
     margin: 5px;
-    background: #111;
+    background: #14A8FA;
 }
 
-.menu-one {
+.menu-one, .menu-two {
     flex: 1 1 0;
 }
+
+
 
 
 
