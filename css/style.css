@@ -13,15 +13,17 @@
 }
 
 .ul-two {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.ul-three {
+  flex-direction: column;
+  height: 400px;
 }
 
 .menu-item {
     margin: 5px;
     background: #14A8FA;
-}
-
-.menu-one, .menu-two {
     flex: 1 1 0;
 }
 
