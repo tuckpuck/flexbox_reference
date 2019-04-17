@@ -21,11 +21,24 @@
   height: 400px;
 }
 
-.menu-item {
-    margin: 5px;
-    background: #14A8FA;
-    flex: 1 1 0;
+.ul-four {
+  flex-wrap: wrap !important;
+  height: inherit;
 }
+
+.menu-one, .menu-two, .menu-three {
+  margin: 5px;
+  background: #14A8FA;
+  flex: 1 1 0;
+}
+
+.menu-four {
+  background: #14A8FA;
+  margin: 5px;
+  width: 200px;
+  height: 80px;
+}
+
 
 
 
